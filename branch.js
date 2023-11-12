@@ -30,7 +30,7 @@ const mediaConstraints = {
 $(async function(){
     console.log("Username: ", localUserName);
     try{
-        socket = new WebSocket(`wss://${IP}:8080/signal`);
+        socket = new WebSocket(`ws://${IP}:8080/signal`);
     } catch(err){
         console.log(err);
     } finally{

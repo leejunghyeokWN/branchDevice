@@ -2,7 +2,7 @@
 let localStream, myPeerConnection, socket, localVideoTracks;
 const roomN= "2";
 const localUserName = "한경대점 2";
-const IP = "172.30.1.78";
+const IP = "172.17.211.247";
 
 // WebRTC STUN servers
 const peerConnectionConfig = {
